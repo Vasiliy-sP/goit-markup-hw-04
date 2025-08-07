@@ -34,7 +34,6 @@ img {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    max-width: 100%;
 }
 
 /*================body=================*/
@@ -388,15 +387,6 @@ li {
     padding-left: 0;
 }
 
-/* icon */
-
-.instagram
-.twitter
-.facebook
-.linkedin {
-    background-color: var(--color-iris);
-    border-radius: 50%;
-}
 
 /* //=================section4===============// */
 
@@ -466,6 +456,15 @@ li {
     padding: 100px 0;
 }
 
+.conteiner-twoo {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-logo {
+    margin-right: 120px;
+}
+
 .footer-web {
     font-weight: 700;
     font-size: 18px;
@@ -475,7 +474,6 @@ li {
     color: var(--color-iris);
     margin-bottom: 16px;
     display: inline-block;
-    margin-bottom: 16px;
 }
 
 .footer-studio {
@@ -488,13 +486,14 @@ li {
 }
 
 .footer-text {
-    font-weight: 400;
-    font-size: 16px;
     line-height: 1.5;
     color: var(--color-cloud);
     letter-spacing: 0.02em;
-    max-width: 270px;
+    max-width: 264px;
 }
+
+
+
 
 
 
